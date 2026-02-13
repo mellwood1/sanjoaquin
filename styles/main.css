@@ -44,6 +44,7 @@ header h3 {
 
 main {
     padding: 1em;
+    display: flex;
 }
 
 main h1{
@@ -88,6 +89,14 @@ a:hover, a:focus {
     font-style: italic;
 }
 
+
+section {
+  width: 75%;
+}
+
+aside {
+  width: 25%;
+}
 
 footer {
     background-color: #931420;
