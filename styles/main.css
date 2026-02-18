@@ -11,7 +11,7 @@ html {
 body {
     font-family: sans-serif;
     font-size: 100%;
-    width: 600px;
+    width: 700px;
     margin: 0 auto 0 auto;
     border: 3px solid #931420;
     background-color: #fffded;
@@ -40,6 +40,38 @@ header h3 {
     font-size: 130%;
     font-style: italic;
     padding-left: 30px;
+}
+
+#nav_menu {
+    border-bottom: 3px solid #800000;
+    background-color: #800000;
+    width: 100%;
+}
+
+#nav_menu ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#nav_menu li {
+    display: inline-block;
+    width: 19%;
+}
+
+#nav_menu a {
+    display: block;
+    text-align: center;
+    padding: .7em 0;
+    color: white;
+    background-color: #800000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#nav_menu a:hover {
+    color: yellow;
 }
 
 main {
