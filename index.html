@@ -5,6 +5,19 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
+
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="js/jquery.slicknav.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('#nav_menu ul').slicknav({ prependTo: "#mobilemenu" });
+		});
+	</script>
+	
+
+	<link rel="stylesheet" href="styles/slicknav.css">
 	<link rel="stylesheet" href="styles/main.css">
 </head>
 
@@ -17,9 +30,9 @@
 		</div>
 
 	</header>
-
+	<nav id="mobilemenu"></nav>
 	<nav id="nav_menu">
-		<ul></ul>
+		<ul>
 			<li><a href="index.html">Home</a></li>
 			<li><a href="about.html">About</a></li>
 			<li><a href="speakers.html">Speakers</a></li>
@@ -79,10 +92,13 @@
 				<h2>Fossil Threads in the Web of Life</h2>
 				<img src="images/sampson_dinosaur.jpg" alt="Scott Sampson with dinosaur">
 				<h3>February<br>Scott Sampson</h3>
-				<p>What's 75 million years old and brand spanking new? A teenage Utahceratops! Come to the Saroyan, armed with your best dinosaur roar, when Scott Sampson, Research Curator at the Utah Museum of Natural History, steps to the podium. Sampson's research has focused on the ecology and evolution of late Cretaceous dinosaurs and he has conducted fieldwork in a number of countries in Africa.</p>
+				<p>What's 75 million years old and brand spanking new? A teenage Utahceratops! Come to the Saroyan,
+					armed with your best dinosaur roar, when Scott Sampson, Research Curator at the Utah Museum of
+					Natural History, steps to the podium. Sampson's research has focused on the ecology and evolution of
+					late Cretaceous dinosaurs and he has conducted fieldwork in a number of countries in Africa.</p>
 				<p><a href="speakers/sampson.html">Read More</a></p>
 			</article>
-			
+
 			<h2>Our Ticket Packages</h2>
 			<ul>
 				<li>
